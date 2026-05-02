@@ -35,7 +35,7 @@ The system follows a structured pipeline:
 ## 🚀 How to Run the Project
 
 ### Step 1: Clone the repository
-git clone https://github.com/yashjadhav1812/AI-Intrusion-Detection-System.git
+git clone https://github.com/yashjadhav1812/AI-Intrusion-Detection-System.git                                      
 cd Desktop/ai_ids_project
 
 ### Step 2: Install dependencies        
