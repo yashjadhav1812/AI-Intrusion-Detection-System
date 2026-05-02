@@ -58,7 +58,7 @@ Go to:
 http://127.0.0.1:5000/
 
 ## ⚠️Project Folder Structure
-📁 ai_ids_project/
+```📁 ai_ids_project/
 │
 ├── 📁 Database/                 # Dataset folder
 │   └── DrDos_DNS.csv        # Network traffic dataset used for training
@@ -73,3 +73,4 @@ http://127.0.0.1:5000/
 ├── app.py                   # Main Flask application (UI + backend logic)
 ├── sniffer.py               # Network packet capturing script
 ├── train_model.py           # Model training script
+
