@@ -35,6 +35,41 @@ The system follows a structured pipeline:
 ## 🚀 How to Run the Project
 
 ### Step 1: Clone the repository
-```bash
+
 git clone https://github.com/yashjadhav1812/AI-Intrusion-Detection-System.git
-cd AI-Intrusion-Detection-System
+cd Desktop/ai_ids_project
+
+### Step 2: Install dependencies
+pip install -r requirements.txt
+(If requirements.txt is not available, install manually:)
+pip install pandas numpy scikit-learn flask
+
+### Step 3: Start packet sniffer (for real-time detection)
+sudo python3 sniffer.py
+
+### Step 4: Train the model (optional)
+python3 train_model.py
+
+### Step 5: Run the application
+python3 app.py
+
+Step 6: Open in browser
+Go to:
+http://127.0.0.1:5000/
+
+## ⚠️Project Folder Structure
+📁 ai_ids_project/
+│
+├── 📁 Database/                # Dataset folder
+│   └── DrDos_DNS.csv            # Your dataset file
+│
+├── 📁 Templates/              # HTML files (for frontend)
+│   ├── index.html
+│   ├── monitor.html
+│
+├── 📁 model/                  # Trained model
+│   └── ids_model.pkl
+│
+├── app.py                     # Main Flask app (frontend + backend)
+├── sniffer.py                 # Packet capturing script
+├── train_model.py             # Model training script
