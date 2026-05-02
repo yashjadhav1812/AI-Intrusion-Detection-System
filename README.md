@@ -60,7 +60,7 @@ http://127.0.0.1:5000/
 ```
 📁 ai_ids_project/
 │
-├── 📁 Database/              # Dataset folder
+├── 📁 Dataset/              # Dataset folder
 │   └── DrDos_DNS.csv        # Network traffic dataset used for training
 │
 ├── 📁 templates/            # HTML files (Flask frontend)
