@@ -58,19 +58,19 @@ Go to:
 http://127.0.0.1:5000/
 
 ## ⚠️Project Folder Structure
-```📁 ai_ids_project/
+```
+📁 ai_ids_project/
 │
-├── 📁 Database/                 # Dataset folder
+├── 📁 Database/              # Dataset folder
 │   └── DrDos_DNS.csv        # Network traffic dataset used for training
 │
-├── 📁 templates/               # HTML files (Flask frontend)
+├── 📁 templates/            # HTML files (Flask frontend)
 │   ├── index.html           # Home page
 │   └── monitor.html         # Live monitoring page
 │
-├── 📁 model/                   # Trained ML model
+├── 📁 model/                 # Trained ML model
 │   └── ids_model.pkl        # Saved intrusion detection model
 │
 ├── app.py                   # Main Flask application (UI + backend logic)
 ├── sniffer.py               # Network packet capturing script
 ├── train_model.py           # Model training script
-
