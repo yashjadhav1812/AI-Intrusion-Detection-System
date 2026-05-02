@@ -33,24 +33,23 @@ The system follows a structured pipeline:
 ---
 
 ## 🚀 How to Run the Project
-
-### Step 1: Clone the repository
 ```
+Step 1: Clone the repository
 git clone https://github.com/yashjadhav1812/AI-Intrusion-Detection-System.git
 cd Desktop/ai_ids_project
 
-### Step 2: Install dependencies
+Step 2: Install dependencies
 pip install -r requirements.txt
 (If requirements.txt is not available, install manually:)
 pip install pandas numpy scikit-learn flask
 
-### Step 3: Start packet sniffer (for real-time detection)
+Step 3: Start packet sniffer (for real-time detection)
 sudo python3 sniffer.py
 
-### Step 4: Train the model (optional)
+Step 4: Train the model (optional)
 python3 train_model.py
 
-### Step 5: Run the application
+Step 5: Run the application
 python3 app.py
 
 Step 6: Open in browser
@@ -58,7 +57,7 @@ Go to:
 http://127.0.0.1:5000/
 
 ## ⚠️Project Folder Structure
-```
+
 📁 ai_ids_project/
 │
 ├── 📁 Database/              # Dataset folder
